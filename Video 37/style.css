@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(222, 202, 240);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    width: 100vw;
+}
+nav{
+    background-color: blueviolet;
+    padding: 15px;
+    margin-bottom: 0px ;
+}
+nav ul li {
+    display: inline;
+    padding: 30px;
+    font-weight: bold;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.mainbox{
+    display:flex;
+    flex-direction: row;
+    margin: 0px 45px;
+    background-color: rgb(110, 237, 110);
+    border: 2px solid green;
+}
+.box{
+    /* position: relative; */
+    margin: 50px;
+    padding: 20px;
+    border: 1.5px solid yellow;
+    background-color: green;
+    color: yellow; 
+    height: 80vh;
+    width: 40vw;
+    font-size: xx-large;
+}
+.img{
+    position: fixed;
+    margin-top: 74vh;
+    margin-left: 86vw;
+}
+.welcome{
+    margin: 20px;
+    border: 3px solid black;
+    font-size: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 4cm;
+    text-align: center;
+    background-color: rgb(44, 172, 211);
+    color: rgb(28, 28, 89);
+}
+footer{
+    background-color: blueviolet;
+    padding: 15px;
+    margin: 0px ;
+}
+footer ul li {
+    display: inline;
+    padding: 30px;
+    font-weight: bold;
+}
+footer ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}

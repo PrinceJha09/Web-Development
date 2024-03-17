@@ -1,0 +1,52 @@
+body{
+    background-color: gray;
+    padding: 45px;
+}
+.box{
+    border: 3px solid black;
+    border-radius: 1cm;
+    background-color: white;
+    width: 390px;
+    height: 600px;
+}
+.image{
+    padding: 5px;
+}
+.img{
+    border-radius: 1cm;
+}
+.nat{
+    border: 1px solid black;
+    border-radius: 0.5cm;
+    padding: 0px 6px;
+    width: 5vw;
+    margin-left: 0.4cm;
+}
+.con{
+    margin-left: 0.6cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.head{
+    font-weight: bold;
+}
+.p{
+    color: gray;
+    font-size: 15px;
+}
+.button{
+    text-align: center;
+}
+.button button{
+    padding:6px 15px;
+    border-radius: 0.5cm;
+    background-color: rgb(216, 236, 253);
+    font-size: 14px;
+    border: none;
+    color: rgb(14, 150, 234);
+    margin-top: 3px;
+    font-weight: bold;
+}
+.button button:hover{
+    background-color: aliceblue;
+    color: rgb(14, 150, 234);
+}

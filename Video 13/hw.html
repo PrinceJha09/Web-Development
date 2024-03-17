@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+    div{
+        margin:10px;
+    }
+    </style>
+</head>
+<body>
+    <h1>FORM TO GET ADMISSION IN NIT PATNA</h1>
+    <h2>Enter your details below</h2>
+    <form action="post">
+        <fieldset>
+    <div>
+    <label for="name">NAME</label>
+        <input type="text" id="name" placeholder="Enter your name" class="container" required>
+    </div>
+    <div>
+    <label for="password">PASSWORD</label>
+        <input type="password" id="password" placeholder="Enter password" class="container" required>
+    </div>
+    <div>
+     <input type="radio" id="male" name="sex" value="male" class="checkbox">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="sex" value="female">
+        <label for="female">Female</label>
+    </div>
+</fieldset>
+    <br>
+<fieldset>
+    <div>
+    <label for="mob">MOBILE</label>
+        <input type="number" id="mob" placeholder="Enter your Mobile No." class="container">
+    </div>
+    <div>
+    <label for="mail">E-Mail ID</label>
+        <input type="email" id="mail" placeholder="Enter your E-Mail ID" class="container">
+    </div>
+</fieldset>
+<br>
+<fieldset>
+    <div>
+    <label for="dob">D.O.B</label>
+        <input type="date" id="dob" required>
+<label for="lang">Choose your language</label>
+        <select name="lang" id="lang">
+        <option value="English">English</option>
+        <option value="Hindi">Hindi</option>
+        <option value="Sanskrit">Sanskrit</option>
+  </select>
+</div>
+</fieldset>
+  <br>
+<fieldset>
+    <div>
+    <label for="address">ADDRESS</label>
+        <input type="text" id="address" placeholder="Enter your address" class="container" required>
+    </div>
+</fieldset>
+    <hr>
+    <label for="feedback">Any suggestions for us</label>
+    <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Comment here......"  ></textarea>
+
+    <hr>
+    <div>
+        <input type="submit" value="SUMBIT">
+    </div>
+</form>
+</body>
+</html>

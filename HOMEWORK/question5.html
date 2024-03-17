@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question_5</title>
+    <style>
+        .container{
+            margin-top:40px;
+            margin-left: 40px;
+        }
+        table {
+            border-collapse: collapse;
+            border: 2px solid black;
+            letter-spacing: 0.5px;
+            font-size: 28px;
+            font-family: 'Calibri';
+            width: 1100px;
+            background-color:rgb(206, 226, 247);
+        }
+        td,th{
+            border: 2px solid black;
+            padding: 10px;
+        }
+        .subheading{
+            text-align: left;
+        }
+        thead{
+            background-color:rgb(2, 91, 159);
+        }
+        .list{
+            background-color: rgb(93, 154, 228);
+        }
+        .box{
+            font-weight: bold;
+            background-color:rgb(160, 192, 228);
+        }
+        .total{
+            background-color:rgb(96, 121, 148)
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <thead>
+                <th colspan="4">Invoice</th>
+            </thead>
+            <tbody>
+                <tr class="list">
+                    <th class="subheading">Item/Desc.</th>
+                    <th class="subheading">Qty.</th>
+                    <th class="subheading">@</th>
+                    <th class="subheading">Price</th>
+                </tr>
+                <tr>
+                    <td>Paperclips (Box)</td>
+                    <td>100</td>
+                    <td>1.15</td>
+                    <td>115.00</td>
+                </tr>
+                <tr>
+                    <td>Paper (case)</td>
+                    <td>10</td>
+                    <td>45.99</td>
+                    <td>459.90</td>
+                </tr>
+                <tr>
+                    <td>Waterpaper Baskets</td>
+                    <td>2</td>
+                    <td>17.99</td>
+                    <td>35.98</td>
+            </tbody>
+            <tfoot>
+                </tr>
+                <td class="subtotal box" colspan="3">Subtotal</td>
+                <td>610.88</td>
+                </tr>
+                <tr>
+                    <td class="tax box" colspan="2">Tax</td>
+                    <td>7%</td>
+                    <td>42.76</td>
+                </tr>
+                <tr>
+                    <td class="total box" colspan="3">Total</td>
+                    <td>653.64</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
